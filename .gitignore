@@ -13,7 +13,7 @@ Pipfile.lock
 # CONFIGURACIÓN SENSIBLE
 *.env
 .env*
-app/database/ConexionBD/config_DB.py   
+ 
 data/Datos_RegistroNacional/          
 
 # TEMPORALES
