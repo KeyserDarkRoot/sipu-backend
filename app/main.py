@@ -20,12 +20,12 @@ supabase_cli = crear_cliente()
 app = FastAPI(title="SIPU API")
 
 app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
+ CORSMiddleware,
+ allow_origins=["*"], # luego pondrás dominio real
+ allow_credentials=True,
+ allow_methods=["*"],
+ allow_headers=["*"],
 )
-
 app.include_router(router_auth, prefix="/auth")
 app.include_router(router_inscripcion, prefix="/inscripcion")
 app.include_router(router_dashboard, prefix="/dashboard")
