@@ -1,0 +1,50 @@
+# PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+# ENTORNOS VIRTUALES
+venv/
+env/
+.venv/
+ENV/
+Pipfile.lock
+
+# CONFIGURACIÓN SENSIBLE
+*.env
+.env*
+app/database/ConexionBD/config_DB.py   
+data/Datos_RegistroNacional/          
+
+# TEMPORALES
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# IDEs
+.vscode/
+.idea/
+
+
+# BUILD / DIST
+dist/
+build/
+*.egg-info/
+.eggs/
+*.spec
+
+# JUPYTER
+.ipynb_checkpoints/
+
+
+# SUPABASE
+supabase/.temp/
+supabase/.cache/
+supabase/.env.local
+
+# BAT / EXE
+*.exe
