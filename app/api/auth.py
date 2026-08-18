@@ -9,8 +9,8 @@ router_auth = APIRouter()
 db = crear_cliente()
 
 # ================= CONFIGURACIÓN EMAIL =================
-EMAIL_EMISOR = "brithany.macias.t@gmail.com"     # <-- TU CORREO
-EMAIL_PASS = "hftdqcpkqmkhnlop"           # <-- CLAVE DE APLICACIÓN
+EMAIL_EMISOR = "abelardodelgado2006@gmail.com"     # <-- TU CORREO
+EMAIL_PASS = "gaalybszyigxrkvf"           # <-- CLAVE DE APLICACIÓN
 
 # ================= FUNCIÓN ENVÍO =======================
 def enviar_correo(destino, asunto, mensaje):
